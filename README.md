@@ -1,20 +1,5 @@
 <h1 align="center"><i>Keep it simple, and stupid.<br/>保持简单，保持拙朴。</i></h1>
 
-<table>
-  <tr>
-    <td width="50%">
-Hi there 👋
-
-I'm @hotoo, a classic old developer and Vim user. Focus on Front-End and User-Experience.
-    </td>
-    <td width="50%">
-你好 👋
-
-我是 @闲耘，一个典型的老年开发者，Vim 重度用户。专注前端，注重用户体验。崇尚自由，信仰民主与法制。
-    </td>
-  </tr>
-</table>
-
 <br/>
 
 <div align="center">
