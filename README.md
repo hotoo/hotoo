@@ -1,10 +1,12 @@
-<h1 align="center"><i>Keep it simple, and stupid.<br/>保持简单，保持拙朴。</i></h1>
+Keep it simple, and stupid.<br/>
+保持简单，保持拙朴。
 
-<br/>
-
-<div align="center">
+<!--
+div align="center">
 <img alt="Github State" src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" align="center" />
-</div>
+</div
+-->
+
 <!--
 ![Github Top Programing Language](https://github-readme-stats.vercel.app/api/top-langs/?username=hotoo&hide=java,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3)
 -->
