@@ -1,5 +1,5 @@
-Keep it simple, and stupid.<br/>
-保持简单，保持拙朴。
+🦮 Keep it simple, and stupid.<br/>
+🐂 保持简单，保持拙朴。
 
 <!--
 div align="center">
