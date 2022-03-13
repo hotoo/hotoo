@@ -1,4 +1,4 @@
-🦮 Keep it simple, and stupid.<br/>
+🦮 Keep it simple, stupid.<br/>
 🐂 保持简单，保持拙朴。
 
 <!--
