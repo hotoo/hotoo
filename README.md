@@ -8,6 +8,10 @@
   <image width='60%' src="https://cdn.jsdelivr.net/gh/hotoo/hotoo@github-contribution-grid-snake/github-contribution-grid-snake.svg" />
 </a>
 
+<p/><p/>
+
+> prettier 是毫无品味的程序员的裹脚布。
+
 <!--
 div align="center">
 <img alt="Github State" src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" align="center" />
