@@ -1,6 +1,6 @@
-I'm watching jobs on fullstack and frontend developer.
+👨‍💻 I'm watching jobs on fullstack and frontend developer.
 
-Contact me by hotoo.cn[AT]gmail.com
+📧 Contact me by hotoo.cn[AT]gmail.com
 
 
 🦮 Keep it simple, and stupid.<br/>
