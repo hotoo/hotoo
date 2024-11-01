@@ -1,3 +1,8 @@
+I'm watching jobs on fullstack and frontend developer.
+
+Contact me by hotoo.cn[AT]gmail.com
+
+
 🦮 Keep it simple, and stupid.<br/>
 🐂 保持简单，保持拙朴。
 
