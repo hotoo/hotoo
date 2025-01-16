@@ -1,8 +1,3 @@
-👨‍💻 I'm looking for a remote job on fullstack and frontend developer.
-
-📧 Contact me by hotoo.cn[AT]gmail.com please.
-
-
 🦮 Keep it simple, and stupid.<br/>
 🐂 保持简单，保持拙朴。
 
