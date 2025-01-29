@@ -1,5 +1,19 @@
-🦮 Keep it simple, and stupid.<br/>
-🐂 保持简单，保持拙朴。
+```
+                     {/ ． ．\}
+                     ( (oo)   )
+ +-------------oOOo---︶︶︶︶---oOOo-------------+
+                                      _  ___
+                                       \/ _/
+  🦮 Keep it simple, and stupid.      _/ /ian__
+                                     /__/\ \/ /
+  🐂 保持简单，保持拙朴。                     \  /
+                                          /_/un
+
+
+                                     闲耘™(@hotoo)
+
+ +---------------------------------Oooo-----------+
+```
 
 <a href="#">
 <image width='28%' src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&include_all_commits=false&hide_border=true&hide=contribs&theme=vue" />
@@ -18,8 +32,6 @@
 
 
 <p/><p/>
-
-> prettier 是毫无品味的程序员的裹脚布。
 
 <!--
 div align="center">
