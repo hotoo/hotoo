@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     font-family="Courier New"
+>
+  <text font-size="16" x="20" y="20">
+    <tspan fill="black"> _</tspan>
+  </text>
+  <text font-size="16" x="50" y="20">
+    <tspan fill="black">___</tspan>
+  </text>
+
+  <text font-size="16" x="30" y="38">
+    <tspan fill="black">\/ _/</tspan>
+  </text>
+  <text font-size="16" x="20" y="56">
+    <tspan fill="black">_/ /</tspan><tspan fill="red">ian</tspan><tspan fill="black">__</tspan>
+  </text>
+  <text font-size="16" x="10" y="74">
+    <tspan fill="black">/__/\ \/ /</tspan>
+  </text>
+  <text font-size="16" x="60" y="92">
+    <tspan fill="black">\</tspan>
+  </text>
+  <text font-size="16" x="88" y="92">
+    <tspan fill="black">/</tspan>
+  </text>
+  <text font-size="16" x="60" y="110">
+    <tspan fill="black">/_/</tspan><tspan fill="green">un</tspan>
+  </text>
+</svg>
