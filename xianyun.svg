@@ -3,30 +3,31 @@
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      font-family="Courier New"
+     width="120" height="120"
 >
-  <text font-size="16" x="20" y="20">
+  <text font-size="16" x="24" y="10">
     <tspan fill="black"> _</tspan>
   </text>
-  <text font-size="16" x="50" y="20">
+  <text font-size="16" x="54" y="10">
     <tspan fill="black">___</tspan>
   </text>
 
-  <text font-size="16" x="30" y="38">
+  <text font-size="16" x="34" y="28">
     <tspan fill="black">\/ _/</tspan>
   </text>
-  <text font-size="16" x="20" y="56">
+  <text font-size="16" x="24" y="46">
     <tspan fill="black">_/ /</tspan><tspan fill="red">ian</tspan><tspan fill="black">__</tspan>
   </text>
-  <text font-size="16" x="10" y="74">
+  <text font-size="16" x="14" y="64">
     <tspan fill="black">/__/\ \/ /</tspan>
   </text>
-  <text font-size="16" x="60" y="92">
+  <text font-size="16" x="64" y="82">
     <tspan fill="black">\</tspan>
   </text>
-  <text font-size="16" x="88" y="92">
+  <text font-size="16" x="92" y="82">
     <tspan fill="black">/</tspan>
   </text>
-  <text font-size="16" x="60" y="110">
+  <text font-size="16" x="64" y="100">
     <tspan fill="black">/_/</tspan><tspan fill="green">un</tspan>
   </text>
 </svg>
