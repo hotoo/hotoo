@@ -5,29 +5,29 @@
      font-family="Courier New"
      width="120" height="120"
 >
-  <text font-size="16" x="24" y="10">
+  <text font-size="16" x="22" y="10">
     <tspan fill="black"> _</tspan>
   </text>
-  <text font-size="16" x="54" y="10">
+  <text font-size="16" x="52" y="10">
     <tspan fill="black">___</tspan>
   </text>
 
-  <text font-size="16" x="34" y="28">
+  <text font-size="16" x="32" y="28">
     <tspan fill="black">\/ _/</tspan>
   </text>
-  <text font-size="16" x="24" y="46">
+  <text font-size="16" x="22" y="46">
     <tspan fill="black">_/ /</tspan><tspan fill="red">ian</tspan><tspan fill="black">__</tspan>
   </text>
-  <text font-size="16" x="14" y="64">
+  <text font-size="16" x="12" y="64">
     <tspan fill="black">/__/\ \/ /</tspan>
   </text>
-  <text font-size="16" x="64" y="82">
+  <text font-size="16" x="62" y="82">
     <tspan fill="black">\</tspan>
   </text>
-  <text font-size="16" x="92" y="82">
+  <text font-size="16" x="90" y="82">
     <tspan fill="black">/</tspan>
   </text>
-  <text font-size="16" x="64" y="100">
+  <text font-size="16" x="62" y="100">
     <tspan fill="black">/_/</tspan><tspan fill="green">un</tspan>
   </text>
 </svg>
