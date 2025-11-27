@@ -15,10 +15,10 @@
 ```
 
 <a href="#">
-<image width='28%' src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&include_all_commits=false&hide_border=true&hide=contribs&theme=vue" />
+  <image width='28%' alt="github stats" src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&include_all_commits=false&hide_border=true&hide=contribs&theme=transparent" />
 </a>
 <a href="#">
-<image width="20%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hotoo&theme=vue&show_icons=true&hide_border=true&hide=contribs&layout=compact" />
+  <image width="20%" alt="github top langage" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hotoo&theme=transparent&show_icons=true&hide_border=true&hide=contribs&layout=compact" />
 </a>
 <a href="#">
 <picture width='50%'>
