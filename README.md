@@ -15,17 +15,29 @@
 ```
 
 <a href="#">
-  <image width='28%' alt="github stats" src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&include_all_commits=false&hide_border=true&hide=contribs&theme=transparent" />
+  <picture width='28%'>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/stats-light.svg">
+    <img width='28%' alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hotoo/hotoo/grs/stats-light.svg">
+  </picture>
+  
+  <!-- image width='28%' alt="github stats" src="https://github-readme-stats.vercel.app/api?username=hotoo&show_icons=true&include_all_commits=false&hide_border=true&hide=contribs&theme=transparent" / -->
 </a>
 <a href="#">
-  <image width="20%" alt="github top langage" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hotoo&theme=transparent&show_icons=true&hide_border=true&hide=contribs&layout=compact" />
+  <picture width='20%'>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/langs-light.svg">
+    <img width='20%' alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hotoo/hotoo/grs/langs-light.svg">
+  </picture>
+  
+  <!-- image width="20%" alt="github top langage" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hotoo&theme=transparent&show_icons=true&hide_border=true&hide=contribs&layout=compact" / -->
 </a>
 <a href="#">
-<picture width='50%'>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/output/github-contribution-grid-snake.svg">
-  <img width='50%' alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hotoo/hotoo/output/github-contribution-grid-snake.svg">
-</picture>
+  <picture width='50%'>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/output/github-contribution-grid-snake.svg">
+    <img width='50%' alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hotoo/hotoo/output/github-contribution-grid-snake.svg">
+  </picture>
 </a>
 
 
