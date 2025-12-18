@@ -1,0 +1,87 @@
+name: Generate GitHub Readme Stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */24 * * *
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-stats:
+    strategy:
+      matrix:
+        theme: [light, dark]
+    permissions: write-all
+    runs-on: ubuntu-latest
+    name: Generate stats cards
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate stats-${{ matrix.theme }}
+        uses: UlyssesZh/grs-action@v0
+        id: generate
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=long&hide_title=true&show=discussions_started&hide_border=true&disable_animations=true&hide_rank=true&theme=${{ matrix.theme }}
+          path: grs/stats-${{ matrix.theme }}.svg
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload stats-${{ matrix.theme }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-${{ matrix.theme }}
+          path: grs
+  generate-langs:
+    strategy:
+      matrix:
+        theme: [light, dark]
+    permissions: write-all
+    runs-on: ubuntu-latest
+    name: Generate top language cards
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate stats-${{ matrix.theme }}
+        uses: UlyssesZh/grs-action@v0
+        id: generate
+        with:
+          options: username=${{ github.repository_owner }}&layout=compact&hide_title=true&hide=tex,html&langs_count=16&hide_border=true&disable_animations=true&theme=${{ matrix.theme }}
+          path: grs/langs-${{ matrix.theme }}.svg
+          card: langs
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload langs-${{ matrix.theme }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: langs-${{ matrix.theme }}
+          path: grs
+  push:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    name: Push
+    needs: [generate-stats, generate-langs]
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: stats-dark
+          path: grs
+      - uses: actions/download-artifact@v4
+        with:
+          name: stats-light
+          path: grs
+      - uses: actions/download-artifact@v4
+        with:
+          name: langs-dark
+          path: grs
+      - uses: actions/download-artifact@v4
+        with:
+          name: langs-light
+          path: grs
+      - name: Push
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: grs
+          build_dir: grs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
