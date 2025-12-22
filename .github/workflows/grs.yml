@@ -23,7 +23,7 @@ jobs:
         id: generate
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=short&hide_title=false&show=discussions_started=false&hide_border=true&disable_animations=true&hide_rank=true&theme=${{ matrix.theme }}
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=short&hide_title=false&show=discussions_started=false&hide_border=true&disable_animations=true&hide_rank=false&theme=${{ matrix.theme }}
           path: grs/stats-${{ matrix.theme }}.svg
         env:
           PAT_1: ${{ secrets.GITHUB_TOKEN }}
