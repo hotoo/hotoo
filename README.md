@@ -1,3 +1,8 @@
+🚵‍♂️ Hi, I'm hotoo, I'm watching an remote jobs.
+
+👨‍💻 I'm a front-end developer, and fullstack with Node.js,
+more infomation see my resume page. take easy to contact me.
+
 ```
                      {/ ． ．\}
                      ( (oo)   )
