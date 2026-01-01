@@ -2,7 +2,7 @@
 
 👨‍💻 I'm a front-end developer, and fullstack with Node.js and TypeScript over 10 years.
 
-📮 More information see my [LinkedIn](https://www.linkedin.com/in/hotoo/) page, and take it easy to contact me `aG90b28uY25AZ21haWwuY29t`.
+📮 More information see my [LinkedIn](https://www.linkedin.com/in/hotoo/) page, and take it easy to [contact me](mailto:hotoo.cn@gmail.com).
 
 ```
                      {/ ． ．\}
