@@ -11,7 +11,7 @@ jobs:
   generate-stats:
     strategy:
       matrix:
-        theme: [light, dark]
+        theme: [default, dark]
     permissions: write-all
     runs-on: ubuntu-latest
     name: Generate stats cards
@@ -19,14 +19,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Generate stats-${{ matrix.theme }}
-        uses: UlyssesZh/grs-action@v0
+        uses: stats-organization/github-readme-stats-action@v1
         id: generate
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=short&hide_title=false&show=discussions_started=false&hide_border=true&disable_animations=true&hide_rank=false&theme=${{ matrix.theme }}
           path: grs/stats-${{ matrix.theme }}.svg
-        env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload stats-${{ matrix.theme }}
         uses: actions/upload-artifact@v4
         with:
@@ -35,7 +34,7 @@ jobs:
   generate-langs:
     strategy:
       matrix:
-        theme: [light, dark]
+        theme: [default, dark]
     permissions: write-all
     runs-on: ubuntu-latest
     name: Generate top language cards
@@ -43,14 +42,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Generate stats-${{ matrix.theme }}
-        uses: UlyssesZh/grs-action@v0
+        uses: stats-organization/github-readme-stats-action@v1
         id: generate
         with:
           options: "username=${{ github.repository_owner }}&layout=compact&hide_title=false&hide=tex,html,mdx,vim snippet&langs_count=8&hide_border=true&disable_animations=true&theme=${{ matrix.theme }}"
           path: grs/langs-${{ matrix.theme }}.svg
-          card: langs
-        env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          card: top-langs
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload langs-${{ matrix.theme }}
         uses: actions/upload-artifact@v4
         with:
@@ -68,7 +66,7 @@ jobs:
           path: grs
       - uses: actions/download-artifact@v4
         with:
-          name: stats-light
+          name: stats-default
           path: grs
       - uses: actions/download-artifact@v4
         with:
@@ -76,7 +74,7 @@ jobs:
           path: grs
       - uses: actions/download-artifact@v4
         with:
-          name: langs-light
+          name: langs-default
           path: grs
       - name: Push
         uses: crazy-max/ghaction-github-pages@v4
