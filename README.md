@@ -1,8 +1,8 @@
-🚵‍♂️ Hi, I'm hotoo, I'm watching a remote jobs.
+🚵‍♂️ Hi, I'm **hotoo** `/hútú/`, I'm watching remote jobs.
 
-👨‍💻 I'm a front-end developer, and fullstack with Node.js and TypeScript over 10 years.
+👨‍💻 I'm a Fullstack (Front-end) developor with Node.js and TypeScript over 10 years.
 
-📮 More information see my [Homepage](https://hotoo.co/en-US/index.html) and [LinkedIn](https://www.linkedin.com/in/hotoo/) page, take it easy to [contact me](mailto:hotoo.cn@gmail.com).
+📮 More information see [hotoo.co](https://hotoo.co/en-US/index.html) and [LinkedIn](https://www.linkedin.com/in/hotoo/) page, take it easy to [contact me](mailto:hotoo.cn@gmail.com).
 
 ```
                      {/ ． ．\}
