@@ -22,8 +22,8 @@
 
 <a href="#">
   <picture width='28%'>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/stats-default.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/refs/heads/grs/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/refs/heads/grs/stats-default.svg">
     <img width='28%' alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hotoo/hotoo/grs/stats-default.svg">
   </picture>
   
@@ -31,8 +31,8 @@
 </a>
 <a href="#">
   <picture width='20%'>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/langs-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/grs/langs-default.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/refs/heads/grs/langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hotoo/hotoo/refs/heads/grs/langs-default.svg">
     <img width='20%' alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hotoo/hotoo/grs/langs-default.svg">
   </picture>
   
